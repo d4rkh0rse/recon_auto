@@ -10,6 +10,7 @@
 - subfinder
 - waybackurls
 - Amass
+- httpx
 
 ## Direct Installation
 
