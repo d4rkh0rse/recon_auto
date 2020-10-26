@@ -1,6 +1,14 @@
 # recon_auto
 
 
+# Installation Instructions
+
+## Prerequisite
+
+- [Resources]
+
+## Direct Installation
+
 # Usage
 
 ```bash
@@ -10,5 +18,5 @@ recon.sh example.com
 # Installation
 
 ```
-https://github.com/dkdhaval/recon_auto.git
+git clone https://github.com/dkdhaval/recon_auto.git
 ```
