@@ -11,6 +11,8 @@
 - waybackurls
 - Amass
 - httpx
+- ffuf
+- shuffledns
 
 ## Direct Installation
 
