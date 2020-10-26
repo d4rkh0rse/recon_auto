@@ -5,7 +5,11 @@
 
 ## Prerequisite
 
-- [Resources]
+- gf
+- assetfinder
+- subfinder
+- waybackurls
+- Amass
 
 ## Direct Installation
 
