@@ -13,6 +13,7 @@
 - httpx
 - ffuf
 - shuffledns
+- dnsvalidator(resolvers.txt)
 
 ## Direct Installation
 
