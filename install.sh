@@ -16,7 +16,7 @@ git clone https://github.com/vortexau/dnsvalidator.git
 cd dnsvalidator/
 python3 setup.py install
 dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 200 -o resolvers.txt
-cp dnsvalidator/resolvers.txt ../dem/
+cp dnsvalidator/resolvers.txt ../recon_auto/
 
 # install assetfinder
 go get -u github.com/tomnomnom/assetfinder
@@ -39,6 +39,7 @@ GO111MODULE=auto go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
 
 # install gf
 go get -u github.com/tomnomnom/gf
+mkdir ~/.gf
 echo 'source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc
 cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
 git clone https://github.com/1ndianl33t/Gf-Patterns
