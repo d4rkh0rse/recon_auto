@@ -17,6 +17,7 @@ cd dnsvalidator/
 python3 setup.py install
 dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 200 -o resolvers.txt
 cp dnsvalidator/resolvers.txt ../recon_auto/
+cd ../
 
 # install assetfinder
 go get -u github.com/tomnomnom/assetfinder
