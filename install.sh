@@ -5,10 +5,10 @@
 #install subfinder
 GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder;
 git clone https://github.com/blechschmidt/massdns.git;
-cd massdns/
+cd massdns/;
 make
-cp bin/massdns /usr/bin/
-cd ../
+cp bin/massdns /usr/bin/;
+cd ../;
 
 
 # install dnsvalidator
