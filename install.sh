@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #this script was written by @D4rk_h0rs3
 
@@ -12,12 +12,12 @@ cd ../
 
 
 # install dnsvalidator
-git clone https://github.com/vortexau/dnsvalidator.git
-cd dnsvalidator/
-python3 setup.py install
-dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 200 -o resolvers.txt
-cp dnsvalidator/resolvers.txt ../recon_auto/
-cd ../
+git clone https://github.com/vortexau/dnsvalidator.git;
+cd dnsvalidator/;
+python3 setup.py install;
+dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 200 -o resolvers.txt;
+cp dnsvalidator/resolvers.txt ../recon_auto/;
+cd ../;
 
 # install assetfinder
 go get -u github.com/tomnomnom/assetfinder
